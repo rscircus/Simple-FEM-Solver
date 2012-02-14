@@ -1,0 +1,114 @@
+ Position of nodes:
+ ---- Verbose Mode -----
+ Lower bound:            1
+ Upper bound:            8
+ 
+ ===== Show Vector =====
+   1.0000000    
+   2.0000000    
+   3.0000000    
+   4.0000000    
+   5.0000000    
+   6.0000000    
+   7.0000000    
+   8.0000000    
+ 
+ Mesh-Element-Connectivity:
+ ---- Verbose Mode -----
+      Size Y:            7
+      Size X:            2
+ Lower bound:            1           1
+ Upper bound:            7           2
+ 
+ ===== Show Matrix =====
+   1.000   2.000 
+   2.000   3.000 
+   3.000   4.000 
+   4.000   5.000 
+   5.000   6.000 
+   6.000   7.000 
+   7.000   8.000 
+ 
+ Convection Matrix:
+ ---- Verbose Mode -----
+      Size Y:            2
+      Size X:            2
+ Lower bound:            1           1
+ Upper bound:            2           2
+ 
+ ===== Show Matrix =====
+  -0.500   0.500 
+   0.500  -0.500 
+ 
+ Diffusion Matrix:
+ ---- Verbose Mode -----
+      Size Y:            2
+      Size X:            2
+ Lower bound:            1           1
+ Upper bound:            2           2
+ 
+ ===== Show Matrix =====
+   0.010  -0.010 
+  -0.010   0.010 
+ 
+ Force Vector:
+ ---- Verbose Mode -----
+ Lower bound:            1
+ Upper bound:            2
+ 
+ ===== Show Vector =====
+  0.50000000    
+  0.50000000    
+ 
+ e:            1
+ e:            2
+ e:            3
+ e:            4
+ e:            5
+ e:            6
+ e:            7
+ ---- Verbose Mode -----
+      Size Y:            8
+      Size X:            8
+ Lower bound:            1           1
+ Upper bound:            8           8
+ 
+ ===== Show Matrix =====
+   1.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000 
+   0.490  -0.980   0.490   0.000   0.000   0.000   0.000   0.000 
+   0.490   0.490  -0.980   0.490   0.000   0.000   0.000   0.000 
+   0.000   0.490   0.490  -0.980   0.490   0.000   0.000   0.000 
+   0.000   0.000   0.490   0.490  -0.980   0.490   0.000   0.000 
+   0.000   0.000   0.000   0.490   0.490  -0.980   0.490   0.000 
+   0.000   0.000   0.000   0.000   0.490   0.490  -0.980   0.490 
+   0.000   0.000   0.000   0.000   0.000   0.000   0.000   1.000 
+ 
+ ---- Verbose Mode -----
+ Lower bound:            1
+ Upper bound:            8
+ 
+ ===== Show Vector =====
+   0.0000000    
+   1.0000000    
+   1.0000000    
+   1.0000000    
+   1.0000000    
+   1.0000000    
+   1.0000000    
+   0.0000000    
+ 
+ Solution:
+ ---- Verbose Mode -----
+ Lower bound:            1
+ Upper bound:            8
+ 
+ ===== Show Vector =====
+   0.0000000    
+   1.0204074    
+   4.0816312    
+   9.1836710    
+   15.306120    
+   19.387754    
+   16.326532    
+   0.0000000    
+ 
