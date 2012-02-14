@@ -1,12 +1,14 @@
 Simple FEM Solver
 =================
 
-* MAIL: siegbert@cats.rwth-aachen.de
-* URL: http://www.cats.rwth-aachen.de
-* DATE: 2012.02.14
+By Roland Siegbert (siegbert@cats.rwth-aachen.de), http://www.cats.rwth-aachen.de, 2012.02.14 
 
+Adressed Problem:
+-----------------
 This solver works on the **Convection Diffusion Problem** as stated in main.f90. Further more this repository includes two **modules**, which contain the major declarations and a bit of debugging and printing help.
 
 Further information is available at http://www.cats.rwth-aachen.de/members/siegbert.
 
+Thanks go to:
+-------------
 This is a FORTRAN 90 implementation of Eva Schlauch's and Mike Nicolai's FEMSHUI Matlab FEM Solver.
