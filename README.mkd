@@ -7,7 +7,7 @@ Adressed Problem:
 -----------------
 This solver works on the **Convection Diffusion Problem** as stated in main.f90. Further more this repository includes two **modules**, which contain the major declarations and a bit of debugging and printing help.
 
-Further information is available at http://www.cats.rwth-aachen.de/members/siegbert.
+Further information is available at http://www.cats.rwth-aachen.de/Members/siegbert.
 
 Thanks go to:
 -------------
