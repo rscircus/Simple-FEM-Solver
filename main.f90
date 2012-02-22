@@ -142,18 +142,16 @@
 
 
         ! Solve equation system via gauss elemination:
-        ! Convert to upper triangular form:
-
         ! Number of equations = number of nodes:
         n = numberOfNodes
 
         ! Upper triangular matrix:
         do k = 1,n-1
           if (abs(A(k,k)) .gt. 1.E-6) then
-            do i=k+1,n                          ! Move through row
+            do i=k+1,n                              ! move through column
               x = A(i,k)/A(k,k)
               do j = k+1,n
-                A(i,j) = A(i,j) - A(k,j)*x
+                A(i,j) = A(i,j) - A(k,j)*x          ! multiply row
               end do
 
               b(i) = b(i) - b(k)*x
