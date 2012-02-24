@@ -1,0 +1,8 @@
+# Explicit #
+############
+main
+
+# Compiled Sources #
+####################
+*.mod
+*.o
