@@ -1,6 +1,5 @@
 ! 
 ! Debugging-Helper: A nice interface to print whatever value you like to see.
-! 
 
       module printer
 

@@ -13,35 +13,35 @@
 !
 ! ********************************************
 
-module global
-  integer,parameter :: numberOfNodes              = 8
-  integer,parameter :: numberOfElements           = numberOfNodes - 1
-  integer,parameter :: numberOfSpatialDimensions  = 1
-  integer,parameter :: numberOfNodesPerElement    = 2
-  integer,parameter :: numberOfDOFPerNode         = 1
-  real,parameter    :: elementLength              = 1
- ! integer :: numberOfEquations
+      module global
+        integer,parameter :: numberOfNodes              = 8
+        integer,parameter :: numberOfElements           = numberOfNodes - 1
+        integer,parameter :: numberOfSpatialDimensions  = 1
+        integer,parameter :: numberOfNodesPerElement    = 2
+        integer,parameter :: numberOfDOFPerNode         = 1
+        real,parameter    :: elementLength              = 1
+       ! integer :: numberOfEquations
 
-  ! Fluid Properties
-  type fluid
-    real :: a
-    real :: nu
-  end type
+        ! Fluid Properties
+        type fluid
+          real :: a
+          real :: nu
+        end type
 
-  ! Mesh Properties
-  type mesh
-    real, dimension(:), pointer :: boundaryFlag     
-    real, dimension(:,:), pointer :: elementConnectivity 
-    real, dimension(:), pointer :: nodePositions
-  end type mesh
+        ! Mesh Properties
+        type mesh
+          real, dimension(:), pointer :: boundaryFlag     
+          real, dimension(:,:), pointer :: elementConnectivity 
+          real, dimension(:), pointer :: nodePositions
+        end type mesh
 
 
-!  allocate(boundary(lwb:upb,lwb1:upb1), STAT=ierr)
-!  if ( ierr .ne. 0 ) then
-!    print *, "global: mesh.boundary allocation failed"
+      !  allocate(boundary(lwb:upb,lwb1:upb1), STAT=ierr)
+      !  if ( ierr .ne. 0 ) then
+      !    print *, "global: mesh.boundary allocation failed"
 
-!  function deallocateEverything()
-!    if allocated(mesh%boundary) then deallocate mesh%boundary
-!  end function deallocateEverything
+      !  function deallocateEverything()
+      !    if allocated(mesh%boundary) then deallocate mesh%boundary
+      !  end function deallocateEverything
 
-end module global
+      end module global

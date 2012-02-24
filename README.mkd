@@ -9,6 +9,6 @@ This solver works on the **Convection Diffusion Problem** as stated in main.f90.
 
 Further information is available at http://www.cats.rwth-aachen.de/Members/siegbert.
 
-Thanks go to:
--------------
+Credits:
+--------
 This is a FORTRAN 90 solution similar to Eva Schlauch's and Mike Nicolai's FEMSHUI Matlab FEM Solver.
