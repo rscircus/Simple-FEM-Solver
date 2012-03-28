@@ -93,7 +93,7 @@
 
         ! Create element matrices: (by row)
         C_e(1,1:2) = (/ -1, 1 /)
-        C_e(2,1:2) = (/ 1, -1 /)
+        C_e(2,1:2) = (/ -1, 1 /)
         C_e = (fluid1D%a / 2.0) * C_e
 
         K_e(1,1:2) = (/ 1, -1 /)
